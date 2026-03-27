@@ -1,5 +1,11 @@
 # AGENTS.md
 
+この AGENTS.md は **template repo（sebanne-unity-vrchat-tool-template）用**のファイルです。
+新しいツール repo を作る時はこのファイルもコピーし、内容をそのツール固有のものに書き換えてください。
+
+CLAUDE.md はこの repo の雛形兼現況メモとして使用しています。
+セッション開始時は CLAUDE.md を参照してコンテキストを把握してください。
+
 この repo は VRChat 向け Unity Editor ツールのテンプレートです。作業時は以下を守ってください。
 
 ## 開発ルール
@@ -13,3 +19,4 @@
 - 失敗時は原因と対策が見えるようにし、利用者が次の行動を判断できる状態を作る。
 - 破壊的変更、ファイル移動、リネーム、削除は明示的な合意がある場合だけ行う。
 - Unity Editor 拡張は Runtime と責務を分け、Editor 依存コードを Runtime に混ぜない。
+- commit / push は明示的な指示があるまで行わない。
