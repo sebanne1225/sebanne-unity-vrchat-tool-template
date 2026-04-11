@@ -1,30 +1,35 @@
 # TOOL_INFO
 
-## ツール名
+このファイルは、`{{ToolName}}` の repo 補助文書です。README の代わりではなく、公開準備や listing 反映時に確認したい情報を短くまとめています。
 
-- Tool Template
+## 基本情報
 
-## package名
+- ツール名: `{{ToolName}}`
+- package名: `{{package-id}}`
+- 表示名: `{{ToolName}}`
+- Runtime asmdef: `Sebanne.{{ToolId}}`
+- Editor asmdef: `Sebanne.{{ToolId}}.Editor`
+- 現在 version: `0.1.0`
 
-- `com.sebanne.tool-template`
+## 公開メタ情報
 
-## 表示名
+- GitHub repo: `https://github.com/sebanne1225/{{repo-name}}`
+- changelogUrl: `https://github.com/sebanne1225/{{repo-name}}/blob/main/CHANGELOG.md`
+- listing repo: `https://github.com/sebanne1225/sebanne-listing`
+- 参考 listing page (`VCC` 追加先ではない): `https://sebanne1225.github.io/sebanne-listing/`
+- VCC に追加する URL: `https://sebanne1225.github.io/sebanne-listing/index.json`
+- listing 側に追加する `githubRepos`: `sebanne1225/{{repo-name}}`
+- BOOTH 販売名: TBD
 
-- `Sebanne Tool Template`
+## 公開スコープの要約
 
-## 想定用途
+- （ツールの主な機能を箇条書きで書く）
 
-- VRChat 向け Unity Editor ツールの新規開発開始時に、配布しやすい package 構成を素早く用意する。
+## 導入導線の前提
 
-## 非対応
+- 主導線は VCC / VPM
+- Git URL / local package 導入は補助扱い
 
-- 具体的な UI 実装
-- VRChat SDK 連携実装
-- 自動ビルドや CI 設定
+## 既知の制限
 
-## 今後やりたいこと
-
-- サンプル EditorWindow の追加
-- Dry Run 用の共通ログ基盤の追加
-- 設定アセットや検証ユーティリティの追加
-- ドキュメント雛形の拡充
+- （既知の制限や未対応事項を書く）
