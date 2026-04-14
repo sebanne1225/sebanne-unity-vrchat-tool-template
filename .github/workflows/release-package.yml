@@ -44,8 +44,8 @@ jobs:
         run: |
           expected="${{ steps.metadata.outputs.version }}"
           tag="${{ github.event.release.tag_name }}"
-          if [ "$tag" != "$expected" ] && [ "$tag" != "v$expected" ]; then
-            echo "Release tag '$tag' does not match package.json version '$expected'."
+          if [ "$tag" != "$expected" ]; then
+            echo "::error::Release tag '$tag' does not match package.json version '$expected'. Use tag without 'v' prefix (e.g. '$expected')."
             exit 1
           fi
 
