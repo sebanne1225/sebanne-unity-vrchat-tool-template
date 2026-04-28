@@ -27,6 +27,7 @@
 - `README.md` / `TOOL_INFO.md` / `CHANGELOG.md` — プレースホルダをツール固有の内容に
 - `BOOTH_PACKAGE/` 内の全ファイル — ツール名・手順をツール固有の内容に
 - `CLAUDE.md` — このファイル自体をツール固有の内容に書き換え
+- `AGENTS.md` — このファイル自体をツール固有の内容に書き換え
 
 ### VRC SDK / NDMF 依存がある場合
 
